@@ -3,6 +3,14 @@ body {
   background-image: url(/assets/img/sfondo.png);
   background-image: repeating;
   margin: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+strong {
+  font-weight: 600;
+  color: #721c3d;
+}
+p {
+  margin-bottom: 1rem;
 }
 /* HEADER */
 header {
@@ -11,9 +19,12 @@ header {
   text-align: center;
   align-items: center;
   box-shadow: 6px 5px 12px #00000057;
+  padding-block: 25px;
+  text-transform: uppercase;
 }
-header li {
+header a {
   color: white;
+  text-decoration: none;
 }
 hr {
   clear: both;
@@ -26,8 +37,14 @@ ion-icon {
 main {
   background-color: white;
   box-shadow: 6px 5px 12px #00000057;
+  padding: 1rem;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
+main h1 {
+  padding-block: 10px;
+  font-weight: 800;
+  font-size: 36px;
+}
 iframe {
   height: 80%;
   width: 100%;
@@ -48,6 +65,7 @@ footer {
   text-align: center;
   color: white;
   background-color: rgb(10, 66, 66);
+  padding-block: 25px;
 }
 footer a {
   color: blueviolet;
