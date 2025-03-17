@@ -5,7 +5,6 @@ body {
   background-image: repeating;
   margin: 30px;
   font-family: "Poppins", sans-serif;
-  font-size: 400;
   line-height: 1.5;
   font-size: 19px;
 }
@@ -41,55 +40,154 @@ ion-icon {
 main {
   background-color: white;
   box-shadow: 6px 5px 12px #00000057;
-  padding: 1rem;
+  padding: 2em 1em;
+  margin-bottom: 1.5em;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 main h1 {
   padding-block: 10px;
-  font-size: 800;
+  font-weight: 600;
   font-size: 36px;
 }
 .sottotitolo {
   color: #8f8f8f;
   font-size: 19px;
 }
-iframe {
-  height: 80%;
-  width: 100%;
-  border-radius: 10px;
-}
-section {
-  background-color: rgb(196, 195, 195);
-}
 .part-1 {
   list-style-type: disc;
   margin-left: 20px;
   padding-block: 20px;
-}
-ul code {
-  background-color: rgb(218, 218, 218);
-  border-radius: 8px;
-  box-shadow: 5px 3px 8px #00000057;
 }
 .part-2 {
   list-style: decimal;
   margin-left: 20px;
   padding-block: 20px;
 }
+
+ul code {
+  background-color: rgb(218, 218, 218);
+  border-radius: 8px;
+  box-shadow: 5px 3px 8px #00000057;
+}
+
 /* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
-footer {
-  background: linear-gradient(10deg, #0c5277, #0e6b57);
+table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+table caption {
+  font-weight: 600;
+  font-style: italic;
+}
+thead {
   text-align: center;
   color: white;
-  background-color: rgb(10, 66, 66);
-  padding-block: 25px;
+  background-color: #5c77c2;
+}
+thead th {
+  font-size: 15px;
+  text-align: center;
+  width: 30%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgba(255, 255, 255, 0.356);
+}
+tbody {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #5c77c2;
+  text-align: center;
+}
+tbody td {
+  padding-block: 15px;
+}
+.tr1 {
+  background-color: rgba(231, 231, 231, 0.747);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-color: rgba(128, 128, 128, 0.459);
+  border-bottom-color: rgba(128, 128, 128, 0.459);
+}
+a {
+  color: rgb(0, 153, 255);
+  font-weight: 600;
+}
+iframe {
+  margin-block: 40px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+/* FORM */
+section {
+  background-color: rgb(230, 230, 230);
+}
+section h2 {
+  text-align: center;
+  padding-block: 10px;
+  font-weight: 500;
+  font-size: 30px;
+}
+section p {
+  padding: 10px;
+}
+form {
+  text-align: center;
+  padding: 10px;
+}
+form input {
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+}
+form button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #3562f5;
+  border: none;
+  box-shadow: none;
+  height: 40px;
+  width: 90px;
+}
+/* ELEMENTI NELL' ASIDE */
+aside {
+  background-color: white;
+  margin-bottom: 5%;
+}
+aside h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+aside div {
+  padding: 1em;
+  width: 80%;
+  background-color: rgb(230, 230, 230);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.459);
+  margin-bottom: 1em;
+}
+aside div p:last-child {
+  font-size: 15px;
+  padding: 10px;
+  text-align: end;
+}
+/* FOOTER */
+footer {
+  font-size: 15px;
+  background: linear-gradient(356deg, rgb(1 18 26) 0%, rgb(26 74 103) 67%, rgb(31 100 111) 100%);
+  text-align: center;
+  color: white;
+  padding: 25px;
 }
 footer a {
-  color: blueviolet;
+  color: rgb(183, 43, 226);
+  font-weight: 800;
 }
